@@ -1,0 +1,296 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vivek Portfolio</title>
+
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+<header>
+<h2>VVK</h2>
+<div class="menu" onclick="toggleMenu()">☰</div>
+<nav id="nav">
+<a href="#">Home</a>
+<a href="#experience">Experience</a>
+<a href="#projects">Projects</a>
+<a href="#skills">Skills</a>
+<a href="#certifications">Certifications</a>
+<a href="#contact">Contact</a>
+</nav>
+<button onclick="toggleTheme()">🌙</button>
+</header>
+
+<section class="hero">
+<div data-aos="fade-right">
+<h1>Hi, I'm Vivek Kumar Yadav</h1>
+<h3 class="typing"></h3>
+<p>I’m a frontend developer who genuinely enjoys turning ideas into clean and interactive websites. I like working on designs and making them feel smooth, responsive, and easy to use for anyone visiting the site. I’ve built projects like job portals, e-commerce UIs, and landing pages, where I focused on solving real problems and improving user experience. I’m always trying to learn something new, whether it’s a better way to write code or a new trend in web design. For me, it’s not just about coding — it’s about creating something useful and meaningful. I’m looking forward to working on real-world projects, collaborating with others, and growing step by step as a developer.</p>
+<br>
+<a href="Resume.pdf" download><button class="btn">Download CV</button></a>
+</div>
+<img src="mypic.jpg" data-aos="zoom-in">
+</section>
+
+<section id="experience">
+<h2>Experience</h2>
+
+<div class="card">
+<h3>Frontend Developer Intern</h3>
+
+<p><strong>Clinchsoft Technology</strong></p>
+
+<p>
+Currently working as a Frontend Developer Intern where I focus on creating responsive and user-friendly web interfaces using HTML, CSS, and JavaScript. During the internship, I’ve been improving my skills in modern web design, layout structuring, UI development, and building interactive website components while following clean coding practices.
+</p>
+<br>
+<p><strong>Duration:</strong> 1 Month Internship Program</p>
+<br><br>
+<a href="certificate.pdf" download>
+<button class="btn">Download Certificate</button>
+</a>
+</div>
+
+<section id="projects">
+<h2>Projects</h2>
+<div class="project-grid">
+
+<div class="card" onclick="openPopup('project1')">
+<h3>Portfolio</h3>
+<p>Personal portfolio showcasing my frontend projects and skills. </p>
+</div>
+
+<div class="card" onclick="openPopup('project2')">
+<h3>Farmer Marketplace</h3>
+<p>Buy/sell products</p>
+</div>
+
+<div class="card" onclick="openPopup('project3')">
+<h3>Product Landing Page</h3>
+<p>Modern responsive landing page with clean UI</p>
+</div>
+</div>
+</section>
+
+
+<div id="popup" class="popup">
+<div class="popup-content">
+<span onclick="closePopup()">&times;</span>
+<h2 id="popup-title"></h2>
+<p id="popup-desc"></p>
+<a id="popup-link" target="_blank">View Project</a>
+</div>
+</div>
+
+</section>
+<section id="skills" class="skills">
+<h2>Skills</h2>
+<div class="bar"><p>HTML</p><span data-width="95%"></span></div>
+<div class="bar"><p>CSS</p><span data-width="85%"></span></div>
+<div class="bar"><p>JavaScript</p><span data-width="70%"></span></div>
+</section>
+<section id="certifications">
+<h2>Certifications</h2>
+
+<div class="certificate-grid">
+
+<div class="card">
+<h3>HTML and CSS Certificate</h3>
+<p>HTML & CSS Crash Course from Scrimba x Coursera.</p>
+<a href="HTML&CSS Certificate.pdf" target="_blank">
+  <br><br>
+  <button class="btn">View Certificate</button></a>
+</div>
+
+<div class="card">
+  <h3>Go for Web Development</h3>
+  <p>Go for Web Development course from Infosys Springboard.</p>
+  <a href="Go for Web developement Certificate.pdf" target="_blank">
+    <br>
+   <button class="btn">View Certificate</button></a>
+</div>
+
+<div class="card">
+  <h3>C++ Course</h3>
+  <p>C++ Programming Course from Infosys Springboard.</p>
+  <a href="C++ Programming Certificate.pdf" target="_blank">
+    <br><br>
+    <button class="btn">View Certificate</button></a>
+</div>
+
+<div class="card">
+  <h3>Certified Young Professional</h3>
+  <p>TCS iON Career Edge – Young Professional Program.</p>
+  <a href="Career Edge certificate.pdf" target="_blank">
+    <br><br>
+    <button class="btn">View Certificate</button></a>
+</div>
+
+<div class="card">
+  <h3>Java Training Program</h3>
+  <p>Java Training Program under the Spoken Tutorial Project by IIT Bombay.</p>
+  <a href="Java Training Certificate.pdf" target="_blank">
+    <br>
+    <button class="btn">View Certificate</button>
+  </a>
+</div>
+
+
+<div class="card">
+<h3>Python 3.4.3 Training</h3>
+<p>Python 3.4.2 Training Program under the Spoken Tutorial Project by IIT Bombay.</p>
+<a href="Python Training Certificate.pdf" target="_blank">
+  <br>
+  <button class="btn">View Certificate</button>
+</a>
+</div>
+
+<div class="card">
+  <h3>Introduction Of Software Development</h3>
+  <p>What is Software Development?' course from Simplilearn.</p>
+  <a href="What is software development Certificate.pdf" target="_blank">
+    <br>
+    <button class="btn">View Certificate</button>
+  </a>
+</div>
+
+<div class="card">
+  <h3>Cyber Security course</h3>
+  <p>Cyber Security course from Simplilearn SkillUp.</p>
+  <a href="cyber security course.Certificate.pdf" target="_blank">
+    <br><br>
+    <button class="btn">View Certificate</button>
+  </a>
+</div>
+
+<div class="card">
+  <h3>Generative AI for Beginners</h3>
+  <p>Generative AI for Beginners course from Simplilearn SkillUp.</p>
+  <a href="Genai Certificate.pdf" target="_blank">
+    <br>
+    <button class="btn">View Certificate</button>
+  </a>
+</div>
+
+<div class="card">
+  <h3>Certificate of Introduction to Computers Training</h3>
+  <p>Certificate for Completion of Introduction to Computers Training Successfully completed the Introduction to Computers Training.</p>
+  <a href="Introcomputer.pdf" target="_blank">
+    <br>
+    <button class="btn">View Certificate</button>
+  </a>
+</div>
+
+<div class="card">
+  <h3>Analytics and Data-Driven Decision Making</h3>
+  <p>Analytics and Data-Driven Decision Making workshop with upGrad.</p>
+  <a href="Data Driven Certificate.pdf" target="_blank">
+    <br><br><br>
+    <button class="btn">View Certificate</button>
+  </a>
+</div>
+
+<div class="card">
+  <h3>C Programming Course</h3>
+  <p>C programming course from Infosys.</p>
+  <a href="C programming certificate.pdf" target="_blank">
+    <br><br><br><br>
+    <button class="btn">View Certificate</button>
+  </a>
+</div>
+
+</div>
+</section>
+<section id="contact" class="contact">
+<h2>Contact</h2>
+
+<p>Email: 
+<a href="https://mail.google.com/mail/?view=cm&to=yvivekkumar481@gmail.com&su=Portfolio%20Contact&body=Hi%20Vivek,%20I%20visited%20your%20portfolio%20and%20would%20like%20to%20connect%20with%20you." target="_blank">
+yvivekkumar481@gmail.com
+</a>
+</p>
+<div class="socials">
+  <a href="https://github.com/vivekkumaryadav-fd" target="_blank">
+    <img src="https://images.icon-icons.com/3685/PNG/512/github_logo_icon_229278.png" alt="GitHub">
+  </a>
+
+  <a href="https://www.linkedin.com/in/vivek-kumar-yadav-b7a92b337/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BIpq40F9aQ76lmKf36PJ76g%3D%3D" target="_blank">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn">
+  </a>
+
+  <a href="https://www.instagram.com/_.iamvvk.10?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+    <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram">
+  </a>
+</div>
+
+</section>
+
+<footer>
+<p>© 2026 Vivek | Frontend Developer</p>
+</footer>
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>AOS.init()</script>
+
+<script>
+
+const roles=["Frontend Developer","UI Designer","Web Designer"];
+let i=0,j=0,text="",del=false;
+const el=document.querySelector(".typing");
+function type(){
+text=roles[i];
+el.textContent=text.substring(0,j);
+if(!del){j++;if(j>text.length){del=true}}
+else{j--;if(j==0){del=false;i=(i+1)%roles.length}}
+setTimeout(type,100)}
+type();
+
+
+function toggleMenu(){document.getElementById("nav").classList.toggle("active")}
+
+
+function toggleTheme(){document.body.classList.toggle("light")}
+
+
+const data={
+project1:{title:"Portfolio",
+          desc:"Personal portfolio showcasing my frontend projects and skills.",
+          link:"https://my-portfolio-fd.netlify.app/",
+        },
+project2:{title:"Farmer Marketplace",
+          desc:"Platform for farmers to sell products.",
+          link:"https://agent-69f31c8b21a595--local-farmer-s-marketplace.netlify.app/localfarmermarketplace",
+        },
+project3:{
+          title:"Product Landing Page",
+          desc:"A modern responsive landing page built with clean design, smooth layout and mobile responsiveness.",
+          link:"https://cheerful-strudel-991beb.netlify.app/"
+        }
+};
+
+function openPopup(id){
+document.getElementById("popup").style.display="flex";
+document.getElementById("popup-title").innerText=data[id].title;
+document.getElementById("popup-desc").innerText=data[id].desc;
+document.getElementById("popup-link").href=data[id].link;
+}
+
+function closePopup(){document.getElementById("popup").style.display="none"}
+
+window.addEventListener("scroll",()=>{
+document.querySelectorAll(".bar span").forEach(bar=>{
+bar.style.width=bar.dataset.width;
+});
+});
+</script>
+
+</body>
+</html>
+
+
+
